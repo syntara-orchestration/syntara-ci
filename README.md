@@ -1,2 +1,31 @@
 # nexus-xfail
-Used by #wg-nexus-ci-stability to maintain the xfail list
+
+Centralized xfail list for the Nexus test suites, maintained by #wg-nexus-ci-stability.
+
+## Format
+
+Each `.md` file corresponds to a test suite (e.g. `backend.md`). Tests to mark
+as xfail are listed as H1 headings with the full pytest node-id. The text below
+each heading explains the reason:
+
+```markdown
+# tests/e2e/workflows/test_wait_node.py::test_wait_node_zero_duration_fails
+
+orchestration bug: _process_node_result swallows failed-status dicts
+```
+
+## Usage
+
+The Nexus backend Makefile fetches `backend.md` automatically and passes it to
+pytest via `--xfail-from-url`. To override or disable:
+
+```bash
+# Use the default xfail list (automatic)
+make test-e2e
+
+# Override with a different URL
+make test-e2e XFAIL_URL=https://raw.githubusercontent.com/…/backend.md
+
+# Disable xfail entirely
+make test-e2e XFAIL_URL=
+```
