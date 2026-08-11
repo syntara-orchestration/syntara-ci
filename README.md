@@ -1,6 +1,6 @@
-# nexus-xfail
+# syntara-xfail
 
-Centralized xfail list for the Nexus test suites, maintained by #wg-nexus-ci-stability.
+Centralized xfail list for the Syntara test suites, maintained by @syntara-ci-stability.
 
 ## Format
 
@@ -16,7 +16,7 @@ orchestration bug: _process_node_result swallows failed-status dicts
 
 ## Usage
 
-The Nexus backend Makefile fetches `backend.md` automatically and passes it to
+The Syntara backend Makefile fetches `backend.md` automatically and passes it to
 pytest via `--xfail-from-url`. To override or disable:
 
 ```bash
