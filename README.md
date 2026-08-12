@@ -16,6 +16,8 @@ orchestration bug: _process_node_result swallows failed-status dicts
 
 ## Usage
 
+### Backend (pytest)
+
 The Syntara backend Makefile fetches `backend.md` automatically and passes it to
 pytest via `--xfail-from-url`. To override or disable:
 
@@ -28,4 +30,19 @@ make test-e2e XFAIL_URL=https://raw.githubusercontent.com/…/backend.md
 
 # Disable xfail entirely
 make test-e2e XFAIL_URL=
+```
+
+### Frontend (Playwright)
+
+Set the `SYNTARA_PLAYRIGHT_XFAIL_URL` environment variable to point at `playwright.md`.
+The Playwright fixture fetches the file once per worker and marks matching tests
+as expected failures via `test.fail()`. Test identifiers use the format
+`file.spec.ts > Describe block > test name`.
+
+```bash
+# Run with xfail list
+SYNTARA_PLAYRIGHT_XFAIL_URL=https://raw.githubusercontent.com/…/playwright.md npx playwright test
+
+# Disable (default — no env var)
+npx playwright test
 ```
