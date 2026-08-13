@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "syntara-ci"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[project.scripts]
+refresh-playwright-xfail = "tools.refresh_playwright_xfail:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["tools"]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
