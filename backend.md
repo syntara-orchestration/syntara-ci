@@ -7,3 +7,7 @@ Just an example entry
 - Error: `AssertionError: Drains processed 400 seeded rows total, but only 200 were seeded — SKIP LOCKED may not be working correctly`
 - Log: https://github.com/syntara-orchestration/syntara/actions/runs/31630805654/job/94228942309?pr=129
 - Jira: https://redhat.atlassian.net/browse/AAP-87600
+
+# tests/unit/test_xfail_demo.py::test_always_fails
+
+Intentionally broken test to validate the xfail-from-url mechanism
