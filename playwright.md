@@ -157,11 +157,6 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cba050ebc59ac7a8a7d1
 Action: quarantine
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cc32c98842c9dbfda86e9
 
-# workflows/approvals.spec.ts: user cancels batch approval without API call
-
-Action: quarantine
-Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b54e2c3df71b8c18fe
-
 # workflows/approvals.spec.ts: user changes decision from approve to reject (undo)
 
 Action: quarantine
@@ -176,11 +171,6 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cd51fb76855d5fc18c86
 
 Action: quarantine
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b585233be4b08fe62a
-
-# workflows/approvals.spec.ts: user performs batch rejection operations
-
-Action: quarantine
-Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b5a864d4ff27651e94
 
 # workflows/approvals.spec.ts: user selects all approvals using header checkbox
 
