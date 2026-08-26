@@ -165,6 +165,13 @@ def heading_from_action(action, title_to_spec, spec_files, basename_map):
     return None
 
 
+def format_created(created_at):
+    """Format an action's createdAt ISO timestamp as a YYYY-MM-DD date."""
+    if not created_at:
+        return None
+    return created_at.split("T", 1)[0]
+
+
 def body_from_action(action, project_id):
     """Build a body block for a currents.dev action entry."""
     parts = []
@@ -172,6 +179,9 @@ def body_from_action(action, project_id):
     parts.append(f"Action: {ops}")
     if action.get("description"):
         parts.append(action["description"])
+    created = format_created(action.get("createdAt"))
+    if created:
+        parts.append(f"Created: {created}")
     parts.append(
         f"Source: https://app.currents.dev/projects/{project_id}/actions/{action['actionId']}"
     )
@@ -212,10 +222,9 @@ def main():
         if not heading:
             skipped += 1
             continue
-        if heading in existing:
-            continue
+        if heading not in existing:
+            added += 1
         existing[heading] = body_from_action(action, project_id)
-        added += 1
 
     filtered = 0
     final = {}
