@@ -167,16 +167,6 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b44e2c3df71b8c18f
 Action: quarantine
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cd51fb76855d5fc18c866
 
-# workflows/approvals.spec.ts: user performs batch approval operations
-
-Action: quarantine
-Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b585233be4b08fe62a
-
-# workflows/approvals.spec.ts: user selects all approvals using header checkbox
-
-Action: quarantine
-Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b4724f283dcecac6c9
-
 # workflows/builder-validation.spec.ts: UI-31: Workflow Verification — Pre-Execution Validation > verification error shown for a disconnected node
 
 Action: quarantine
