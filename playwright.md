@@ -43,6 +43,11 @@ Action: quarantine
 4.8% flakiness (188/3,935 executions)
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9eab4dd3818ca2c5997
 
+# pagination.spec.ts: Pagination Footer — Identity Providers > pagination footer is visible on identity providers tab
+
+Action: quarantine
+Source: https://app.currents.dev/projects/F510Y3/actions/6a887fd3c1f78f9348a8ec61
+
 # run-step.spec.ts: Run Step > executes workflow when "Run all previous steps" is clicked
 
 Action: quarantine
@@ -59,6 +64,11 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b53680b2940a2133b
 Action: quarantine
 4.7% flakiness (177/3,776 executions)
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9eb0ebc59ac7a8a7d16
+
+# v2-workflow-migration.spec.ts: V2 Workflow Schema Migration > creates and saves all v2 executor node types
+
+Action: quarantine
+Source: https://app.currents.dev/projects/F510Y3/actions/6a8ee1f9baa5fdb24cc5639e
 
 # workflow-filtering.spec.ts: Workflow Filtering > individual filter chips can be removed
 
@@ -131,6 +141,11 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9e60f817771b150b85
 Action: quarantine
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b485233be4b08fe629
 
+# workflows/approval-multi-navigation.spec.ts: multi-approval navigation: Previous/Next buttons and deep-link counter
+
+Action: quarantine
+Source: https://app.currents.dev/projects/F510Y3/actions/6a8858b1ced6a1d78ea07da4
+
 # workflows/approval-node.spec.ts: Approval Node Configuration > user adds Approval node, clicks to open details panel, configures, and saves
 
 Action: quarantine
@@ -140,6 +155,11 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b56d7f4d7fbbf4b59
 
 Action: quarantine
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cac7798842c9dbfda8296
+
+# workflows/approval-side-panel.spec.ts: Approval Side Panel > run history and approval panel are mutually exclusive
+
+Action: quarantine
+Source: https://app.currents.dev/projects/F510Y3/actions/6a887fd0c1f78f9348a8ec60
 
 # workflows/approval-side-panel.spec.ts: Approval Side Panel — deep-link > viewer: approve and reject buttons are disabled
 
@@ -156,6 +176,11 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cba050ebc59ac7a8a7d1
 
 Action: quarantine
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cc32c98842c9dbfda86e9
+
+# workflows/approvals.spec.ts: user cancels batch approval without API call
+
+Action: quarantine
+Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b54e2c3df71b8c18fe
 
 # workflows/approvals.spec.ts: user changes decision from approve to reject (undo)
 
@@ -193,6 +218,11 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cf8c198842c9dbfda964
 Action: quarantine
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7231dd84e84b72db8001f7
 
+# workflows/execution-runs-table.spec.ts: UI-26: Workflow Runs Table with Filtering > status filter narrows results to matching executions
+
+Action: quarantine
+Source: https://app.currents.dev/projects/F510Y3/actions/6a887fcdbaa5fdb24cc49708
+
 # workflows/incomplete-node-validation.spec.ts: UI-32: Workflow Verification — Missing Required Configuration > unconfigured AAP node triggers verification error
 
 Action: quarantine
@@ -203,6 +233,16 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b56d7f4d7fbbf4b59
 Action: quarantine
 5.3% flakiness (195/3,650 executions)
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9e8b4dd3818ca2c5996
+
+# workflows/node-editor-panels.spec.ts: Node editor panels > node editor can be opened, closed, and reopened
+
+Action: quarantine
+Source: https://app.currents.dev/projects/F510Y3/actions/6a8866ceced6a1d78ea0819c
+
+# workflows/node-editor-panels.spec.ts: Node editor panels > output panel displays execution data
+
+Action: quarantine
+Source: https://app.currents.dev/projects/F510Y3/actions/6a887fcaced6a1d78ea08a4d
 
 # workflows/node-editor-panels.spec.ts: mock data cancel flow
 
