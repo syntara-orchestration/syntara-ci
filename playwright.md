@@ -303,3 +303,15 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a887fcaced6a1d78ea08a4
 Action: quarantine
 Created: 2026-08-12
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cd452b76855d5fc18c7d4
+
+# workflows/approvals.spec.ts: user performs batch approval operations
+
+Action: quarantine
+Created: 2026-08-26
+Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b585233be4b08fe62a
+
+# workflows/approvals.spec.ts: user selects all approvals using header checkbox
+
+Action: quarantine
+Created: 2026-08-26
+Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b4724f283dcecac6c9
