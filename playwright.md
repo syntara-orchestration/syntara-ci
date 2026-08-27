@@ -74,14 +74,6 @@ Action: quarantine
 Created: 2026-08-03
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b53680b2940a2133ba
 
-# tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_in_condition_true_branch
-
-Action: quarantine
-Failing in the automation-orchestrator-api-tests Konflux PipelineRun (run-ao-api-tests task).
-Created: 2026-08-26
-Issue: AAP-89731
-Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-api-tests-devel-pull-request-4cfbc/logs?task=run-ao-api-tests
-
 # v2-workflow-migration.spec.ts: V2 Workflow Schema Migration > API response preserves v2 schema format on reload
 
 Action: quarantine
