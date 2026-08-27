@@ -29,6 +29,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b470d82aae1646660
 
 Action: quarantine
 Created: 2026-08-07
+Issue: AAP-85990
 Source: https://app.currents.dev/projects/F510Y3/actions/6a762c0ab76855d5fc17b789
 
 # credential-enable-disable.spec.ts: Credential Enable/Disable State Management > state persists across page navigation
@@ -36,6 +37,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a762c0ab76855d5fc17b78
 Action: quarantine
 5.7% flakiness (227/3,977 executions)
 Created: 2026-08-12
+Issue: AAP-85990
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cba000ebc59ac7a8a7d1a
 
 # eda-trigger.spec.ts: EDA Trigger > user creates a workflow with EDA trigger and saves it
@@ -63,6 +65,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a887fd3c1f78f9348a8ec6
 Action: quarantine
 Test has 4.13% flakiness rate (114 flaky / 2758 executions). Quarantined pending investigation and fix tracked in AAP-83887.
 Created: 2026-08-05
+Issue: AAP-85978
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7335c6911a8fe4ff9008cd
 
 # service-accounts-assignments.spec.ts: UI-10: Cross-Project Role Assignment > assigns a project-scoped role from a different project
@@ -90,6 +93,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9eb0ebc59ac7a8a7d1
 
 Action: quarantine
 Created: 2026-08-26
+Issue: AAP-89592
 Source: https://app.currents.dev/projects/F510Y3/actions/6a8ee1f9baa5fdb24cc5639e
 
 # workflow-filtering.spec.ts: Workflow Filtering > individual filter chips can be removed
@@ -136,24 +140,28 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a76539116de655b3983a10
 
 Action: quarantine
 Created: 2026-08-03
+Issue: AAP-85118
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b6a864d4ff27651e95
 
 # workflow-verification.spec.ts: Save with warnings > warnings are non-blocking for save and show warning banner
 
 Action: quarantine
 Created: 2026-08-03
+Issue: AAP-85118
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b52e885a609437450d
 
 # workflow-verification.spec.ts: Validation error panel > clicking node name in error panel opens node editor
 
 Action: quarantine
 Created: 2026-08-03
+Issue: AAP-85118
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b62e885a609437450e
 
 # workflow-verification.spec.ts: Variable reference validation > reference to nonexistent node shows validation error
 
 Action: quarantine
 Created: 2026-08-06
+Issue: AAP-85118
 Source: https://app.currents.dev/projects/F510Y3/actions/6a748e027e86dd1cae3bd4d7
 
 # workflow-verification.spec.ts: Variable reference validation > reference to undefined input field shows validation error
@@ -174,6 +182,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9e60f817771b150b85
 
 Action: quarantine
 Created: 2026-08-03
+Issue: AAP-85045
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b485233be4b08fe629
 
 # workflows/approval-multi-navigation.spec.ts: multi-approval navigation: Previous/Next buttons and deep-link counter
@@ -186,6 +195,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a8858b1ced6a1d78ea07da
 
 Action: quarantine
 Created: 2026-08-03
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b56d7f4d7fbbf4b59b
 
 # workflows/approval-pending-badge.spec.ts: Approval Pending Badge > shows "Pending approval" badge in all three locations when execution has pending approval
@@ -204,6 +214,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a887fd0c1f78f9348a8ec6
 
 Action: quarantine
 Created: 2026-08-03
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b6a864d4ff27651e96
 
 # workflows/approval-workflow-e2e.spec.ts: Approval Workflow E2E > view pending approval with previous step output
@@ -223,6 +234,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cc32b0422dbc42b2ea3c
 # workflows/approvals.spec.ts: user cancels batch approval without API call
 
 Action: quarantine
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b54e2c3df71b8c18fe
 
 # workflows/approvals.spec.ts: user changes decision from approve to reject (undo)
@@ -236,12 +248,14 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b44e2c3df71b8c18f
 Action: quarantine
 Flaky approvals test - undo button behavior
 Created: 2026-08-12
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cc0fa8564d718c9be5fcb
 
 # workflows/approvals.spec.ts: user performs batch rejection operations
 
 Action: quarantine
 Created: 2026-08-03
+Issue: AAP-85043
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b5a864d4ff27651e94
 
 # workflows/builder-validation.spec.ts: UI-31: Workflow Verification — Pre-Execution Validation > verification error shown for a disconnected node
@@ -261,12 +275,14 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7cd989b4aa6c116962fe7
 
 Action: quarantine
 Created: 2026-08-12
+Issue: AAP-87602
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cc0757e86dd1cae3d2d19
 
 # workflows/cancel-execution.spec.ts: Cancel Execution > clicking cancel transitions execution to cancelled @pr-check
 
 Action: quarantine
 Created: 2026-08-12
+Issue: AAP-87644
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cd7ea98842c9dbfda8d58
 
 # workflows/create.spec.ts: Workflows - Create New Workflow > multiple workflows can be created sequentially
@@ -285,6 +301,7 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a887fcdbaa5fdb24cc4970
 
 Action: quarantine
 Created: 2026-08-03
+Issue: AAP-85044
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b56d7f4d7fbbf4b59a
 
 # workflows/manual-trigger.spec.ts: Manual Trigger > creates workflow with manual trigger and verifies canvas display
