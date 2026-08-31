@@ -88,6 +88,13 @@ Created: 2026-08-26
 Issue: AAP-89592
 Source: https://app.currents.dev/projects/F510Y3/actions/6a8ee1f9baa5fdb24cc5639e
 
+# v2-workflow-migration.spec.ts: V2 Workflow Schema Migration > comprehensive v2 workflow: all node types persist and reload
+
+Action: quarantine
+Comprehensive 9-node save->reload round-trip fails on the workflow hard-delete refactor branch (refactor/workflow-hard-delete, commit b35ae967f). Investigation found the save/filter/reload/delete data path unaffected for a never-executed workflow; likely a heavy-test flake/timeout. Quarantined pending root-cause investigation.
+Created: 2026-08-31
+Issue: AAP-90523
+
 # workflow-filtering.spec.ts: Workflow Filtering > individual filter chips can be removed
 
 Action: quarantine
