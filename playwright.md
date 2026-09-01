@@ -54,11 +54,60 @@ Action: quarantine
 Created: 2026-08-12
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9eab4dd3818ca2c5997
 
+# executions.spec.ts: Execution list (requires running executions) > user views executions and opens a running execution
+
+Action: quarantine
+Tagged @konflux-skip: Konflux does not set CI=true so the in-spec CI skip is a no-op; fresh Konflux backends have no running executions.
+Created: 2026-08-31
+Issue: AAP-90555
+
+# pagination.spec.ts: Pagination Footer — Groups Tab > pagination footer is visible on groups tab
+
+Action: quarantine
+Tagged @konflux-skip: Groups table/pagination footer flakes under Konflux load (30s wait). Sibling IdP pagination already quarantined.
+Created: 2026-08-31
+Issue: AAP-90554
+
 # pagination.spec.ts: Pagination Footer — Identity Providers > pagination footer is visible on identity providers tab
 
 Action: quarantine
 Created: 2026-08-21
 Source: https://app.currents.dev/projects/F510Y3/actions/6a887fd3c1f78f9348a8ec61
+
+# permission-gating.spec.ts: Permission gating — Project actions > viewer: project kebab menu in page header (selected project) is not visible
+
+Action: quarantine
+Tagged @konflux-skip: dual-browser viewer session + project selector flakes under Konflux load.
+Created: 2026-08-31
+Issue: AAP-90550
+
+# permission-gating.spec.ts: Permission gating — Credential actions > viewer: Create credential button is disabled with tooltip
+
+Action: quarantine
+Tagged @konflux-skip: dual-browser viewer + credentials toolbar race under Konflux load.
+Created: 2026-08-31
+Issue: AAP-90551
+
+# permission-gating.spec.ts: Permission gating — Credential actions > auditor: Create credential button is disabled
+
+Action: quarantine
+Tagged @konflux-skip: dual-browser auditor + credentials toolbar race under Konflux load.
+Created: 2026-08-31
+Issue: AAP-90552
+
+# permission-gating.spec.ts: Permission gating — Credential actions > auditor: credential row actions are aria-disabled
+
+Action: quarantine
+Tagged @konflux-skip: dual-browser auditor session + kebab aria-disabled is flaky under Konflux load.
+Created: 2026-08-31
+Issue: AAP-90553
+
+# permission-gating.spec.ts: Permission gating — Identity Provider actions > auditor: IdP row actions are aria-disabled
+
+Action: quarantine
+Tagged @konflux-skip: dual-browser auditor IdP kebab; Currents quarantines are not applied in Konflux.
+Created: 2026-08-31
+Issue: AAP-88693
 
 # run-step.spec.ts: Run Step > executes workflow when "Run all previous steps" is clicked
 
@@ -77,8 +126,9 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b53680b2940a2133b
 # v2-workflow-migration.spec.ts: V2 Workflow Schema Migration > API response preserves v2 schema format on reload
 
 Action: quarantine
-4.7% flakiness (177/3,776 executions)
+4.7% flakiness (177/3,776 executions). Tagged @konflux-skip.
 Created: 2026-08-12
+Issue: AAP-90549
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9eb0ebc59ac7a8a7d16
 
 # v2-workflow-migration.spec.ts: V2 Workflow Schema Migration > creates and saves all v2 executor node types
@@ -187,7 +237,9 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b485233be4b08fe62
 # workflows/approval-multi-navigation.spec.ts: multi-approval navigation: Previous/Next buttons and deep-link counter
 
 Action: quarantine
+Tagged @konflux-skip: Temporal-backed multi-approval navigation flakes under Konflux load.
 Created: 2026-08-21
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a8858b1ced6a1d78ea07da4
 
 # workflows/approval-node.spec.ts: Approval Node Configuration > user adds Approval node, clicks to open details panel, configures, and saves
@@ -200,7 +252,9 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b56d7f4d7fbbf4b59
 # workflows/approval-pending-badge.spec.ts: Approval Pending Badge > shows "Pending approval" badge in all three locations when execution has pending approval
 
 Action: quarantine
+Tagged @konflux-skip: Temporal-backed pending-approval badge check flakes under Konflux load.
 Created: 2026-08-12
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cac7798842c9dbfda8296
 
 # workflows/approval-side-panel.spec.ts: Approval Side Panel > run history and approval panel are mutually exclusive
@@ -219,16 +273,25 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b6a864d4ff27651e9
 # workflows/approval-workflow-e2e.spec.ts: Approval Workflow E2E > view pending approval with previous step output
 
 Action: quarantine
-Flaky approval workflow test
+Flaky approval workflow test. Tagged @konflux-skip.
 Created: 2026-08-12
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cba050ebc59ac7a8a7d1b
 
 # workflows/approvals.spec.ts: UI-29: self-contained approve flow via approvals queue
 
 Action: quarantine
-Flaky approvals queue test
+Flaky approvals queue test. Tagged @konflux-skip.
 Created: 2026-08-12
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cc32b0422dbc42b2ea3c7
+
+# workflows/approvals.spec.ts: user bulk-approves filtered approval rows
+
+Action: quarantine
+Tagged @konflux-skip: Temporal-backed pending approval + table filter/selection flakes under Konflux load.
+Created: 2026-08-31
+Issue: AAP-85119
 
 # workflows/approvals.spec.ts: user cancels batch approval without API call
 
@@ -239,7 +302,9 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b54e2c3df71b8c18f
 # workflows/approvals.spec.ts: user changes decision from approve to reject (undo)
 
 Action: quarantine
+Tagged @konflux-skip: Temporal-backed approval undo flakes under Konflux load.
 Created: 2026-08-03
+Issue: AAP-85119
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b44e2c3df71b8c18fd
 
 # workflows/approvals.spec.ts: user clears decision with explicit undo button
@@ -306,8 +371,9 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a7068b56d7f4d7fbbf4b59
 # workflows/manual-trigger.spec.ts: Manual Trigger > creates workflow with manual trigger and verifies canvas display
 
 Action: quarantine
-5.3% flakiness (195/3,650 executions)
+5.3% flakiness (195/3,650 executions). Tagged @konflux-skip.
 Created: 2026-08-12
+Issue: AAP-90548
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cb9e8b4dd3818ca2c5996
 
 # workflows/node-editor-panels.spec.ts: Node editor panels > node editor can be opened, closed, and reopened
@@ -325,7 +391,9 @@ Source: https://app.currents.dev/projects/F510Y3/actions/6a887fcaced6a1d78ea08a4
 # workflows/node-editor-panels.spec.ts: mock data cancel flow
 
 Action: quarantine
+Tagged @konflux-skip: node-editor mock-data cancel dialog flakes under Konflux load.
 Created: 2026-08-12
+Issue: AAP-90547
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cd452b76855d5fc18c7d4
 
 # workflows/approvals.spec.ts: user performs batch approval operations
