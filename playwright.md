@@ -5,6 +5,13 @@ Flaky AI Agent node test
 Created: 2026-08-12
 Source: https://app.currents.dev/projects/F510Y3/actions/6a7cba08b4dd3818ca2c599f
 
+# ai-agent-node.spec.ts: AI Agent Node @pr-check > AI Agent node persists prompt after save/reload
+
+Action: quarantine
+Created: 2026-09-01
+Issue: AAP-90922
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/33537293724/job/99957250460
+
 # builder-toolbar-disabled.spec.ts: builder toolbar disabled while editing > disabled buttons show "finish editing" tooltip
 
 Action: quarantine
