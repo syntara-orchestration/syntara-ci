@@ -12,14 +12,6 @@ Just an example entry
 
 Intentionally broken test to validate the xfail-from-url mechanism
 
-# tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_in_condition_true_branch
-
-Action: quarantine
-Failing in the automation-orchestrator-api-tests Konflux PipelineRun (run-ao-api-tests task).
-Created: 2026-08-26
-Issue: AAP-89731
-Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-api-tests-devel-pull-request-4cfbc/logs?task=run-ao-api-tests
-
 # tests/e2e/workflows/test_workflow_execution.py::TestNodeFailurePropagation::test_failure_does_not_affect_independent_branch
 
 Action: quarantine
