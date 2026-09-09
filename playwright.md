@@ -18,3 +18,11 @@ Action: quarantine
 Comprehensive 9-node save->reload round-trip fails on the workflow hard-delete refactor branch (refactor/workflow-hard-delete, commit b35ae967f). Investigation found the save/filter/reload/delete data path unaffected for a never-executed workflow; likely a heavy-test flake/timeout. Quarantined pending root-cause investigation.
 Created: 2026-08-31
 Issue: AAP-90523
+
+# workflow-import-export.spec.ts
+
+Action: quarantine
+Re-quarantine of the whole spec (previously quarantined for 11-31% flake rate; loginAs fixture race / insufficient waitForUIReady guards). Auto-dropped by the 10-day-window cleanup, failed again in CI.
+Created: 2026-09-09
+Issue: AAP-92036
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/34364593064/job/102512411003
