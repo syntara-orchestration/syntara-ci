@@ -26,3 +26,10 @@ Re-quarantine of the whole spec (previously quarantined for 11-31% flake rate; l
 Created: 2026-09-09
 Issue: AAP-92036
 Source: https://github.com/syntara-orchestration/syntara/actions/runs/34364593064/job/102512411003
+
+# group-membership.spec.ts: Group Detail — Member add/remove (typeahead) > add and remove a member from the group detail
+
+Action: quarantine
+Created: 2026-09-09
+Issue: AAP-92194
+Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-k29nj/logs?task=run-ao-ui-tests
