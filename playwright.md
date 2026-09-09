@@ -19,6 +19,13 @@ Comprehensive 9-node save->reload round-trip fails on the workflow hard-delete r
 Created: 2026-08-31
 Issue: AAP-90523
 
+# v2-workflow-migration.spec.ts: V2 Workflow Schema Migration > creates and saves all v2 control flow node types
+
+Action: quarantine
+Created: 2026-09-09
+Issue: AAP-92193
+Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-tpht4/logs?task=run-ao-ui-tests
+
 # workflow-import-export.spec.ts
 
 Action: quarantine
