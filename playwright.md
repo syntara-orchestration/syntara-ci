@@ -41,16 +41,10 @@ Created: 2026-09-09
 Issue: AAP-92194
 Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-k29nj/logs?task=run-ao-ui-tests
 
-# workflows/approval-side-panel.spec.ts: Approval Side Panel > deep-link > run history and approval panel are mutually exclusive
-
-Action: quarantine
-Intermittent: failed both attempts on run j9cjx (PR #478), failed then passed on run jtxkr, passed on other runs. `locator.click` on `getByRole('button', { name: 'Review approval' })` times out because the button stays `aria-disabled="true"` — it is disabled while `isApprovalPanelOpen` is true, so after toggling Run history the approval-panel-open state races the URL state.
-Created: 2026-09-10
-Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-j9cjx/logs?task=run-ao-ui-tests
-
 # access-management.spec.ts: Access Management — Policies Tab Columns > project-scoped policies show a clickable project link
 
 Action: quarantine
 Fails on the first attempt and passes on retry in every one of the last ~12 Konflux UI runs. `expect(table.getByRole('row').filter({ hasText: policy.name })).toBeVisible({ timeout: 15_000 })` (access-management.spec.ts:372) — the policy row is not visible within 15s under Konflux load.
 Created: 2026-09-10
+Issue: AAP-92356
 Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-j9cjx/logs?task=run-ao-ui-tests
