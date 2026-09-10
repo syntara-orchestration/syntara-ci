@@ -97,7 +97,7 @@ Issue: AAP-92374
 Action: quarantine
 Flaky on syntara-orchestration/syntara PR #478: first attempt fails and retry passes in 3 of 6 runs.
 Created: 2026-09-10
-Issue: 🚨 MISSING — add a Jira ticket before merging
+Issue: AAP-92384
 Source: https://github.com/syntara-orchestration/syntara/actions/runs/34248678059/job/102141035521
 
 # permission-gating.spec.ts: Permission gating — Navigation visibility > admin sees all navigation items
@@ -105,5 +105,5 @@ Source: https://github.com/syntara-orchestration/syntara/actions/runs/3424867805
 Action: quarantine
 Flaky on syntara-orchestration/syntara PR #478: first attempt fails and retry passes in 2 of 6 runs.
 Created: 2026-09-10
-Issue: 🚨 MISSING — add a Jira ticket before merging
+Issue: AAP-92385
 Source: https://github.com/syntara-orchestration/syntara/actions/runs/34248678059/job/102141035521
