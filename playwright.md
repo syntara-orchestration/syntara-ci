@@ -5,6 +5,13 @@ Created: 2026-09-01
 Issue: AAP-90922
 Source: https://github.com/syntara-orchestration/syntara/actions/runs/33537293724/job/99957250460
 
+# ai-agent-node.spec.ts: AI Agent Node @pr-check > AI Agent node can be edited after creation
+
+Action: quarantine
+Created: 2026-09-10
+Issue: AAP-92379
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/34410890417/job/102992634671?pr=523
+
 # pagination.spec.ts: Pagination Footer — Groups Tab > pagination footer is visible on groups tab
 
 Action: quarantine
