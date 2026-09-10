@@ -91,3 +91,19 @@ Issue: AAP-92373
 Action: quarantine
 Created: 2026-09-10
 Issue: AAP-92374
+
+# builder-unsaved-changes.spec.ts: builder unsaved changes modal (AAP-75130) > "Save workflow" saves changes and navigates away
+
+Action: quarantine
+Flaky on syntara-orchestration/syntara PR #478: first attempt fails and retry passes in 3 of 6 runs.
+Created: 2026-09-10
+Issue: 🚨 MISSING — add a Jira ticket before merging
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/34248678059/job/102141035521
+
+# permission-gating.spec.ts: Permission gating — Navigation visibility > admin sees all navigation items
+
+Action: quarantine
+Flaky on syntara-orchestration/syntara PR #478: first attempt fails and retry passes in 2 of 6 runs.
+Created: 2026-09-10
+Issue: 🚨 MISSING — add a Jira ticket before merging
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/34248678059/job/102141035521
