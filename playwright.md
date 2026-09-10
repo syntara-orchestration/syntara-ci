@@ -26,6 +26,12 @@ Created: 2026-09-09
 Issue: AAP-92193
 Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-tpht4/logs?task=run-ao-ui-tests
 
+# v2-workflow-migration.spec.ts: V2 Workflow Schema Migration > creates and saves all v2 executor node types
+
+Action: quarantine
+Created: 2026-09-10
+Issue: AAP-89592
+
 # workflow-import-export.spec.ts
 
 Action: quarantine
@@ -48,3 +54,33 @@ Fails on the first attempt and passes on retry in every one of the last ~12 Konf
 Created: 2026-09-10
 Issue: AAP-92356
 Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-j9cjx/logs?task=run-ao-ui-tests
+
+# eda-trigger.spec.ts: EDA Trigger > user creates a workflow with EDA trigger and saves it
+
+Action: quarantine
+Created: 2026-09-10
+Issue: AAP-92370
+
+# service-accounts-assignments.spec.ts: UI-10: Cross-Project Role Assignment > assigns a project-scoped role from a different project
+
+Action: quarantine
+Created: 2026-09-10
+Issue: AAP-92371
+
+# workflows/approval-pending-badge.spec.ts: Approval Pending Badge > shows "Pending approval" badge in all three locations when execution has pending approval
+
+Action: quarantine
+Created: 2026-09-10
+Issue: AAP-92372
+
+# workflows/approval-workflow-e2e.spec.ts: Approval Workflow E2E > view pending approval with previous step output
+
+Action: quarantine
+Created: 2026-09-10
+Issue: AAP-92373
+
+# workflows/approvals.spec.ts: Approval Workflow Operations > UI-29: self-contained approve flow via approvals queue
+
+Action: quarantine
+Created: 2026-09-10
+Issue: AAP-92374
