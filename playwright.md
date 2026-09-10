@@ -41,13 +41,6 @@ Created: 2026-09-09
 Issue: AAP-92194
 Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-k29nj/logs?task=run-ao-ui-tests
 
-# workflows/approvals.spec.ts: Approval Workflow Operations > user changes decision from approve to reject (undo)
-
-Action: quarantine
-Fails on 100% of the last ~6 Konflux UI runs across unrelated PRs (#478, #528, #527, #512, #513, #522), so it is devel-wide rather than PR-specific. After clicking Approve in the execution side panel, `expect(getByRole('button', { name: 'Reject', exact: true })).toBeVisible()` times out after 10s (approvals.spec.ts:414).
-Created: 2026-09-10
-Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-ui-tests-devel-pull-request-j9cjx/logs?task=run-ao-ui-tests
-
 # workflows/approval-side-panel.spec.ts: Approval Side Panel > deep-link > run history and approval panel are mutually exclusive
 
 Action: quarantine
