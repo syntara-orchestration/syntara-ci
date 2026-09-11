@@ -99,6 +99,14 @@ Action: quarantine
 Created: 2026-09-10
 Issue: AAP-92374
 
+# builder.spec.ts: user edits an existing workflow and changes persist
+
+Action: quarantine
+Rename → Save → navigate to /workflows → filter → assert renamed row visible; save-commit / list-refresh timing race under CI load.
+Created: 2026-09-11
+Issue: AAP-92619
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/34636860455/job/103388714361
+
 # builder-unsaved-changes.spec.ts: builder unsaved changes modal (AAP-75130) > "Save workflow" saves changes and navigates away
 
 Action: quarantine
