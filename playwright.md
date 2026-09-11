@@ -39,6 +39,13 @@ Action: quarantine
 Created: 2026-09-10
 Issue: AAP-89592
 
+# v2-workflow-migration.spec.ts: V2 Workflow Schema Migration > API response preserves v2 schema format on reload
+
+Action: quarantine
+Created: 2026-08-31
+Issue: AAP-90549
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/34612534673/job/103308459890
+
 # workflow-import-export.spec.ts
 
 Action: quarantine
@@ -107,3 +114,10 @@ Flaky on syntara-orchestration/syntara PR #478: first attempt fails and retry pa
 Created: 2026-09-10
 Issue: AAP-92385
 Source: https://github.com/syntara-orchestration/syntara/actions/runs/34248678059/job/102141035521
+
+# workflows/create.spec.ts: Workflows - Create New Workflow > multiple workflows can be created sequentially
+
+Action: quarantine
+Created: 2026-09-11
+Issue: AAP-92563
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/34612534673/job/103308459890
