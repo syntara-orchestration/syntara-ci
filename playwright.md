@@ -50,3 +50,24 @@ Action: quarantine
 Created: 2026-09-01
 Issue: AAP-90922
 Source: https://github.com/syntara-orchestration/syntara/actions/runs/35767752526/job/106883922434
+
+# converge-node.spec.ts: Converge Node - E2E Tests > Timeout configuration > Enable timeout and configure units
+
+Action: quarantine
+Created: 2026-09-22
+Issue: AAP-93987
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/35774737188/job/106907244077
+
+# workflows/approval-multi-navigation.spec.ts: multi-approval navigation: Previous/Next buttons and deep-link counter
+
+Action: quarantine
+Created: 2026-09-22
+Issue: AAP-93988
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/35774737188/job/106907244077
+
+# workflows/retry-execution.spec.ts: Retry Execution > Execution detail page > retry button is visible for a completed execution
+
+Action: quarantine
+Created: 2026-09-22
+Issue: AAP-93989
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/35774737188/job/106907244077
