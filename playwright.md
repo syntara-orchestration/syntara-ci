@@ -43,3 +43,10 @@ Issue: AAP-92373
 Action: quarantine
 Created: 2026-09-10
 Issue: AAP-92374
+
+# ai-agent-node.spec.ts: AI Agent Node @pr-check > AI Agent node persists prompt after save/reload
+
+Action: quarantine
+Created: 2026-09-01
+Issue: AAP-90922
+Source: https://github.com/syntara-orchestration/syntara/actions/runs/35767752526/job/106883922434
