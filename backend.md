@@ -11,3 +11,10 @@ Action: quarantine
 Created: 2026-09-30
 Issue: AAP-95126
 Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-api-tests-devel-pull-request-bwdz9/logs?task=run-ao-api-tests
+
+# tests/e2e/workflows/test_wait_node.py::test_wait_node_multiple_in_sequence
+
+Action: quarantine
+Created: 2026-09-30
+Issue: AAP-95200
+Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-api-tests-devel-pull-request-2vw7k/logs?task=run-ao-api-tests
