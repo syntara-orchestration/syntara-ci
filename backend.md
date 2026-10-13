@@ -11,3 +11,15 @@ Action: quarantine
 Created: 2026-09-30
 Issue: AAP-95126
 Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexus-tenant/applications/ansible-automation-orchestrator-devel/pipelineruns/automation-orchestrator-api-tests-devel-pull-request-bwdz9/logs?task=run-ao-api-tests
+
+# tests/integration/credentials/test_credential_router.py::TestListCredentials::test_list_returns_masked_metadata
+
+Action: quarantine
+Consistently returns 0 credentials (expects >=2) under xdist on Python 3.12. Root cause unclear — suspected audit outbox worker singleton state leak between tests. Fix attempted in PR #868.
+Created: 2026-10-13
+
+# tests/integration/credentials/test_credential_router.py::TestEnabledFilter::test_filter_enabled_false
+
+Action: quarantine
+Consistently returns 0 credentials (expects >=1) under xdist on Python 3.12. Same suspected cause as test_list_returns_masked_metadata above.
+Created: 2026-10-13
