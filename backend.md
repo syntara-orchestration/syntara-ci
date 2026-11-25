@@ -17,7 +17,7 @@ Source: https://konflux-ui.apps.kflux-prd-rh03.nnv1.p1.openshiftapps.com/ns/nexu
 Action: quarantine
 OpenRouter authentication failed during agentic workflow execution. `AgentOrchestratorError: Failed to authenticate with LLM provider. Please check your API configuration.` API key was rotated 2026-11-16; underlying cause under investigation. Temporary quarantine pending migration to sanctioned model provider with service account.
 Created: 2026-11-24
-Issue: TBD
+Issue: AAP-103443
 Source: https://github.com/syntara-orchestration/syntara/pull/1423
 
 # tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_with_response_schema
@@ -25,7 +25,7 @@ Source: https://github.com/syntara-orchestration/syntara/pull/1423
 Action: quarantine
 OpenRouter authentication failed during agentic workflow execution. `AgentOrchestratorError: Failed to authenticate with LLM provider. Please check your API configuration.` API key was rotated 2026-11-16; underlying cause under investigation. Temporary quarantine pending migration to sanctioned model provider with service account.
 Created: 2026-11-24
-Issue: TBD
+Issue: AAP-103443
 Source: https://github.com/syntara-orchestration/syntara/pull/1423
 
 # tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_input_from_upstream_node
@@ -33,7 +33,7 @@ Source: https://github.com/syntara-orchestration/syntara/pull/1423
 Action: quarantine
 OpenRouter authentication failed during agentic workflow execution. `AgentOrchestratorError: Failed to authenticate with LLM provider. Please check your API configuration.` API key was rotated 2026-11-16; underlying cause under investigation. Temporary quarantine pending migration to sanctioned model provider with service account.
 Created: 2026-11-24
-Issue: TBD
+Issue: AAP-103443
 Source: https://github.com/syntara-orchestration/syntara/pull/1423
 
 # tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_output_consumed_by_downstream
@@ -41,7 +41,7 @@ Source: https://github.com/syntara-orchestration/syntara/pull/1423
 Action: quarantine
 OpenRouter authentication failed during agentic workflow execution. `AgentOrchestratorError: Failed to authenticate with LLM provider. Please check your API configuration.` API key was rotated 2026-11-16; underlying cause under investigation. Temporary quarantine pending migration to sanctioned model provider with service account.
 Created: 2026-11-24
-Issue: TBD
+Issue: AAP-103443
 Source: https://github.com/syntara-orchestration/syntara/pull/1423
 
 # tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_with_tool_selection_none
@@ -49,7 +49,7 @@ Source: https://github.com/syntara-orchestration/syntara/pull/1423
 Action: quarantine
 OpenRouter authentication failed during agentic workflow execution. `AgentOrchestratorError: Failed to authenticate with LLM provider. Please check your API configuration.` API key was rotated 2026-11-16; underlying cause under investigation. Temporary quarantine pending migration to sanctioned model provider with service account.
 Created: 2026-11-24
-Issue: TBD
+Issue: AAP-103443
 Source: https://github.com/syntara-orchestration/syntara/pull/1423
 
 # tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_in_loop
@@ -57,7 +57,7 @@ Source: https://github.com/syntara-orchestration/syntara/pull/1423
 Action: quarantine
 OpenRouter authentication failed during agentic workflow execution. `AgentOrchestratorError: Failed to authenticate with LLM provider. Please check your API configuration.` API key was rotated 2026-11-16; underlying cause under investigation. Temporary quarantine pending migration to sanctioned model provider with service account.
 Created: 2026-11-24
-Issue: TBD
+Issue: AAP-103443
 Source: https://github.com/syntara-orchestration/syntara/pull/1423
 
 # tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_in_condition_true_branch
@@ -65,7 +65,7 @@ Source: https://github.com/syntara-orchestration/syntara/pull/1423
 Action: quarantine
 OpenRouter authentication failed during agentic workflow execution. `AgentOrchestratorError: Failed to authenticate with LLM provider. Please check your API configuration.` API key was rotated 2026-11-16; underlying cause under investigation. Temporary quarantine pending migration to sanctioned model provider with service account.
 Created: 2026-11-24
-Issue: TBD
+Issue: AAP-103443
 Source: https://github.com/syntara-orchestration/syntara/pull/1423
 
 # tests/e2e/workflows/test_workflow_agentic_e2e.py::test_agentic_parallel_paths_converge
@@ -73,5 +73,5 @@ Source: https://github.com/syntara-orchestration/syntara/pull/1423
 Action: quarantine
 OpenRouter authentication failed during agentic workflow execution. `AgentOrchestratorError: Failed to authenticate with LLM provider. Please check your API configuration.` API key was rotated 2026-11-16; underlying cause under investigation. Temporary quarantine pending migration to sanctioned model provider with service account.
 Created: 2026-11-24
-Issue: TBD
+Issue: AAP-103443
 Source: https://github.com/syntara-orchestration/syntara/pull/1423
